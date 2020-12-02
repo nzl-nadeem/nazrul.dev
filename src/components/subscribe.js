@@ -26,7 +26,7 @@ export default class SubscribeForm extends Component {
                   </p>
                   <form
                     onSubmit={this.submitForm}
-                    action={`https://formspree.io/${process.env.FORMSPREE_API_KEY_SUBSCRIBE}`} // "https://formspree.io/" // {"https://formspree.io/" + data.site.siteApiKeys.formSpree}
+                    action={`https://formspree.io/f/moqpnrpe`} // "https://formspree.io/" // {"https://formspree.io/" + data.site.siteApiKeys.formSpree}
                     method="POST"
                     id="contactId"
                   >
