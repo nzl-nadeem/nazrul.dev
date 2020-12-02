@@ -43,7 +43,7 @@ export default class Content extends Component {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
-                        <h3>Bimbala</h3>
+                        <h3>Devsmine</h3>
                         <h4>
                           <FontAwesomeIcon
                             icon={faBriefcase}
@@ -58,7 +58,7 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                      Bimbala is a SaaS helping companies upgrade their support team. Integration of roadmaps, knowledge boards and etc. made easy. Make your customers see you work for them and make them part of your business!
+                      Devsmine is a SaaS helping companies upgrade their support team. Integration of roadmaps, knowledge boards and etc. made easy. Make your customers see you work for them and make them part of your business!
                       </div>
                     </div>
                   </div>
@@ -84,7 +84,14 @@ export default class Content extends Component {
                                 icon={faTerminal}
                                 className="mr-2 item-icon"
                               />{" "}
-                              C / C++ / C #
+                              C / C++
+                            </div>
+                            <div className="card-item">
+                              <FontAwesomeIcon
+                                  icon={faTerminal}
+                                  className="mr-2 item-icon"
+                              />{" "}
+                              Java / Android
                             </div>
                             <div className="card-item">
                               <FontAwesomeIcon
@@ -142,7 +149,7 @@ export default class Content extends Component {
                                 icon={faTerminal}
                                 className="mr-2 item-icon"
                               />{" "}
-                              Node / React / GatsbyJS / Hugo
+                              Node / React
                             </div>
 
                             <div className="card-item">
@@ -158,7 +165,7 @@ export default class Content extends Component {
                                 icon={faTerminal}
                                 className="mr-2 item-icon"
                               />{" "}
-                              CMS Based : Wordpress / Joomla / Drupal
+                              CMS Based : Wordpress / Joomla
                             </div>
                           </div>
                         </div>
@@ -209,7 +216,7 @@ export default class Content extends Component {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
-                        <h3>"Angel Kanchev" University of Ruse</h3>
+                        <h3>"Bangladesh" University of Bangladesh</h3>
                         <h4>
                           <FontAwesomeIcon
                             icon={faGraduationCap}

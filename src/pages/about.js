@@ -61,7 +61,7 @@ const AboutPage = ({ data }) => (
          {/* + Profile Picture */}
          <div className="col-lg-6 my-auto mx-auto">
             <Image
-              fileName="mini_profile.jpg"
+              fileName="mini_profile.png"
               alt="Profile Picture"
               className="about-img-wrapper"
             />

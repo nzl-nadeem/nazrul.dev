@@ -4,12 +4,12 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `mrgkanev`,
-    description: `Gabriel's personal website. Here you can find all kind of projects, blog posts and everything you need to know about me.`,
-    author: `@mrgkanev`,
-    image: `https://raw.githubusercontent.com/gmlunesa/gmlunesa.github.io/development/src/images/ogimage.png`,
-    url: `https://mrgkanev.eu`,
-    siteUrl: `https://www.mrgkanev.eu`,
+    title: `Nazrul Islam`,
+    description: `Nazrul's personal website. Here you can find all kind of projects, blog posts and everything you need to know about me.`,
+    author: `@nzl-nadeem`,
+    image: `https://i.ibb.co/GFMjRp0/nazrul-islam.jpg`,
+    url: `https://nazrul.dev`,
+    siteUrl: `https://www.nazrul.dev`,
   },
   plugins: [
     {
@@ -26,13 +26,6 @@ module.exports = {
         id: "GTM-MHMLJZN",
         includeInDevelopment: false,
       },
-    },
-    {
-      resolve: `gatsby-source-rss-feed`,
-      options: {
-        url: `https://mrgkanev.eu/rss.xml`,
-        name: `MrGKanev`,
-      }
     },
     {
       resolve: `gatsby-plugin-mdx`,
@@ -53,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `mrgkanev`,
-        short_name: `mrgkanev`,
+        name: `nzl-nadeem`,
+        short_name: `nzl-nadeem`,
         start_url: `/`,
         background_color: `#1b1c1e`,
         theme_color: `#1b1c1e`,

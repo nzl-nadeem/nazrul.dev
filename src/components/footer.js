@@ -41,14 +41,14 @@ export default class Footer extends Component {
                         <FontAwesomeIcon icon={faArrowUp} />
                       </Link>
                     </li>
-                    <a href="https://github.com/MrGKanev/MrGKanev-s-blog" target="blank" rel="noopener">Source code</a> |
+                    <a href="https://github.com/nzl-nadeem/nazrul.dev" target="blank" rel="noopener">Source code</a> |
                     <li className="list-inline-item mr-3">
-                        &copy; 2012-{new Date().getFullYear()}.{" "}
+                        &copy; 2020-{new Date().getFullYear()}.{" "}
                       {data.site.siteMetadata.title}.
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
-                        href="mailto:contact@mrgkanev.eu"
+                        href="mailto:nazrul.devs@gmaiil.com"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -57,7 +57,7 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
-                        href="https://github.com/mrgkanev"
+                        href="https://github.com/nzl-nadeem"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -66,7 +66,7 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
-                        href="https://linkedin.com/in/mrgkanev"
+                        href="https://www.linkedin.com/in/nazrul-dev"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -75,7 +75,7 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item mr-2">
                       <a
-                        href="https://twitter.com/mrgkanev"
+                        href="https://twitter.com/nzl_nadeem"
                         target="_blank"
                         rel="noreferrer"
                       >

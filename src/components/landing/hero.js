@@ -27,7 +27,7 @@ export default function Hero() {
               <h1>
                 Hi. I'm
                 <br />
-                Gabriel (Gabo) Kanev
+                Nazrul Islam (Nadeem)
               </h1>
               <p>
               
@@ -47,25 +47,25 @@ export default function Hero() {
                 <div className="card-body">
                   <div className="icon">
                     <Image
-                      fileName="mini_profile.jpg"
+                      fileName="mini_profile.png"
                       style={{ width: "5rem", height: "5rem" }}
                       alt=""
                     />
                   </div>
-                  <h3 className="card-title">@mrgkanev</h3>
+                  <h3 className="card-title">@nzl-nadeem</h3>
                   <h4>
                     <span role="img" aria-label="pin">
                       📍
                     </span>{" "}
-                    Ruse, Bulgaria <br />
+                    Dhaka, Bangladesh <br />
                   </h4>
                   <p className="card-text">
-                  Software Engineer, Open-Source Enthusiast, Car guy
+                  Software Engineer, Open-Source Enthusiast
                   </p>
                   <ul className="list-group list-group-horizontal">
                   <li className="list-group-item">
                       <a
-                        href="https://twitter.com/mrgkanev"
+                        href="https://twitter.com/nzl_nadeem"
                         target="_blank"
                         rel="noreferrer"
                         alt="Twitter button"
@@ -75,7 +75,7 @@ export default function Hero() {
                     </li>
                     <li className="list-group-item">
                       <a
-                        href="https://github.com/mrgkanev"
+                        href="https://github.com/nzl-nadeem"
                         target="_blank"
                         rel="noreferrer"
                         alt="Github button"
@@ -85,7 +85,7 @@ export default function Hero() {
                     </li>
                     <li className="list-group-item">
                       <a
-                        href="https://linkedin.com/in/mrgkanev"
+                        href="https://www.linkedin.com/in/nzl-nadeem/"
                         target="_blank"
                         rel="noreferrer"
                         alt="LinkedIn button"
@@ -95,7 +95,7 @@ export default function Hero() {
                     </li>
                     <li className="list-group-item">
                       <a
-                        href="mailto:contact@mrgkanev.eu"
+                        href="mailto:nazrul.devs@gmail.com"
                         target="_blank"
                         rel="noreferrer"
                         alt="Email button"

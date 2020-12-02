@@ -27,22 +27,22 @@ const ContactPage = () => (
             </p>
             <ul className="list-group list-group-horizontal">
               <li className="list-group-item">
-                <a href="mailto:contact@mrgkanev.eu">
+                <a href="mailto:nazrul.devs@gmail.com">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>
               <li className="list-group-item">
-                <a href="https://github.com/mrgkanev">
+                <a href="https://github.com/nzl-nadeem">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </li>
               <li className="list-group-item">
-                <a href="https://linkedin.com/in/mrgkanev">
+                <a href="https://linkedin.com/in/nazrul-dev">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
               <li className="list-group-item">
-                <a href="https://twitter.com/mrgkanev">
+                <a href="https://twitter.com/nzl_nadeem">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </li>

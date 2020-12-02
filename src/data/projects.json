@@ -1,38 +1,32 @@
 [
   {
-    "project": "Hybrid-2.0",
-    "language": "TypScript",
-    "description": "A new and better version of Hybrid.",
-    "link": "https://github.com/MrGKanev/Hybrid-2.0"
+    "project": "Rijndael",
+    "language": "PHP, JAVA",
+    "description": "AES encrypt/decrypt, Android, iOS, PHP compatible. for java link: https://github.com/nzl-nadeem/rijndael",
+    "link": "https://github.com/nzl-nadeem/rijndael"
   },
   {
-    "project": "Ecommerce Glossary",
-    "language": "NodeJS, VueJS, Socket.io",
-    "description": "Real time anonymous chatroom on the web.",
-    "link": "https://github.com/MrGKanev/Ecommerce-Glossary"
+    "project": "Mine Console",
+    "language": "Android, Kotlin",
+    "description": "An Android console view, which allows you to log text using static calls, to easily debug your application, whilst avoiding memory leaks.\n\nAn Android console view, which allows you to log text using static calls, to easily debug your application, whilst avoiding memory leaks.",
+    "link": "https://github.com/nzl-nadeem/mineconsole"
   },
   {
-    "project": "AntiProxies Support Page",
-    "language": "Javascript, HTML, CSS",
-    "description": "Online status statistics page with UptimeRobot as the data source.",
-    "link": "https://github.com/AntiProxies/Support-Page"
+    "project": "Geoip",
+    "language": "PHP",
+    "description": "This GeoIP and country lookup tool from UltraTools performs real-time lookups for an IP to return you the geographical location of the specific IP.",
+    "link": "https://github.com/nzl-nadeem/geoip"
   },
   {
-    "project": "MWC",
+    "project": "php network toolkit",
     "language": "Shell, Python",
-    "description": "My workstation configuration or (MWC) is all my workstation setups, guides and etc in one place.",
-    "link": "https://github.com/MrGKanev/MWC"
+    "description": "Complete PHP Networking Toolkit",
+    "link": "https://github.com/nzl-nadeem/php-network-toolkit"
   },
   {
-    "project": "Pencil-2.0",
-    "language": "Javascript, PHP",
-    "description": "A Simple flat-file blog exercise built with plain(procedural) php, no funky frameworks, no fussy builds or installs. And, it comes with a super easy admin panel to edit, delete, create posts and upload images.",
-    "link": "https://github.com/MrGKanev/Pencil-2.0"
-  },
-  {
-    "project": "Debut Simple Changelog",
-    "language": "Javascript",
-    "description": "Here you guys can see a simple changelog for the thing we upgrade on out system.",
-    "link": "https://github.com/AntiProxies/Debut-Simple-changelog"
+    "project": "Medoo database framework",
+    "language": "composer, PHP",
+    "description": "The Lightweight PHP Database Framework to Accelerate Development",
+    "link": "https://github.com/devsmine/medoo-database-framework"
   }
 ]
