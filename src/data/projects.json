@@ -19,7 +19,7 @@
   },
   {
     "project": "php network toolkit",
-    "language": "Shell, Python",
+    "language": "Shell, Python, PHP",
     "description": "Complete PHP Networking Toolkit",
     "link": "https://github.com/nzl-nadeem/php-network-toolkit"
   },

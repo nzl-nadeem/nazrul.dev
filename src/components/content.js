@@ -93,13 +93,7 @@ export default class Content extends Component {
                               />{" "}
                               Java / Android
                             </div>
-                            <div className="card-item">
-                              <FontAwesomeIcon
-                                icon={faTerminal}
-                                className="mr-2 item-icon"
-                              />{" "}
-                              HTML / CSS / Javascript
-                            </div>
+
                             <div className="card-item">
                               <FontAwesomeIcon
                                 icon={faTerminal}
