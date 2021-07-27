@@ -52,7 +52,7 @@ export default function Hero() {
                       alt=""
                     />
                   </div>
-                  <h3 className="card-title">@nzl-nadeem</h3>
+                  <h3 className="card-title">@nzldev</h3>
                   <h4>
                     <span role="img" aria-label="pin">
                       📍
@@ -75,7 +75,7 @@ export default function Hero() {
                     </li>
                     <li className="list-group-item">
                       <a
-                        href="https://github.com/nzl-nadeem"
+                        href="https://github.com/nzldev"
                         target="_blank"
                         rel="noreferrer"
                         alt="Github button"
