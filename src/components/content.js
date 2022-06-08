@@ -210,25 +210,25 @@ export default class Content extends Component {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
-                        <h3>"Bangladesh" University of Bangladesh</h3>
+                        <h3>IBAIS University</h3>
                         <h4>
                           <FontAwesomeIcon
                             icon={faGraduationCap}
                             className="mr-2"
                           />
-                          Computer Science
+                          Computer Science and Engineering
                         </h4>
                         <h4>
                           <FontAwesomeIcon
                             icon={faUserGraduate}
                             className="mr-2"
                           />{" "}
-                          Hopefully 2021
+                           2018
                         </h4>
                       </div>
 
                       <div className="card-text">
-                        I still have not earned my Bachelor's Degree in Computer Science.
+                        I earned my Bachelor's Degree in Computer Science in IBAIS University.
                       </div>
                     </div>
                   </div>

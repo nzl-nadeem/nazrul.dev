@@ -63,16 +63,7 @@ export default function Hero() {
                   Software Engineer, Open-Source Enthusiast
                   </p>
                   <ul className="list-group list-group-horizontal">
-                  <li className="list-group-item">
-                      <a
-                        href="https://twitter.com/nzl_nadeem"
-                        target="_blank"
-                        rel="noreferrer"
-                        alt="Twitter button"
-                      >
-                        <FontAwesomeIcon icon={faTwitter} />
-                      </a>
-                    </li>
+                  
                     <li className="list-group-item">
                       <a
                         href="https://github.com/nzldev"
@@ -85,7 +76,7 @@ export default function Hero() {
                     </li>
                     <li className="list-group-item">
                       <a
-                        href="https://www.linkedin.com/in/nzl-nadeem/"
+                        href="https://www.linkedin.com/in/nzldev/"
                         target="_blank"
                         rel="noreferrer"
                         alt="LinkedIn button"
@@ -104,13 +95,7 @@ export default function Hero() {
                       </a>
                     </li>
                   </ul>
-                  {/* <a
-                    href="https://twitter.com/mrgkanev"
-                    className="follow-button btn btn-primary shadow-lg"
-                    target="_blank"
-                  >
-                    Follow
-                  </a> */}
+                
                 </div>
               </div>
             </div>

@@ -57,7 +57,7 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
-                        href="https://github.com/nzl-nadeem"
+                        href="https://github.com/nzldev"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -66,22 +66,14 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
-                        href="https://www.linkedin.com/in/nazrul-dev"
+                        href="https://www.linkedin.com/in/nzldev"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
                       </a>
                     </li>
-                    <li className="list-inline-item mr-2">
-                      <a
-                        href="https://twitter.com/nzl_nadeem"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faTwitter} />
-                      </a>
-                    </li>
+                     
                   </ul>
                 </div>
               </div>

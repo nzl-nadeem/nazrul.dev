@@ -1,0 +1,97 @@
+---
+title: "5 top Go web frameworks"
+date: 2022-06-08
+published: true
+featuredImage: 5-top-go-web-frameworks.png
+author: "Nazrul Islam"
+description: "Looking for the top Go frameworks for the web? You came to the right place."
+---
+
+Looking for the top Go frameworks for the web? You came to the right place.
+
+Go is a multiparadigm, statically-typed, and compiled programming language designed by Google. It is similar to C, and if you’re a fan of C, this can be an easy language to pick up. Many developers have embraced this language because of its garbage collection, memory safety, and structural typing system.
+
+According to the 2020 Stack Overflow developer survey, Go is now considered the fifth most “loved” language on the site and the third most “wanted” language for developers to learn who do not know Go yet.
+
+Go is mostly used for web applications, which is why we will look at the top five Go web frameworks and their features to see which is best for your own development.
+
+In this post, we’ll review the reasons to use Go, the pros and cons of using Go frameworks, and five current top Go frameworks, including:
+
+-   [Gin](https://gin-gonic.com/)
+-   [Beego](https://beego.vip/)
+-   [Iris](https://docs.iris-go.com/iris/)
+-   [Echo](https://echo.labstack.com/ )
+-   [Fiber](https://gofiber.io/)
+And now, let’s get into it.
+
+## Why use Go?
+
+Before reviewing five top Go frameworks, what is Go truly used for? Aside from building general web applications, the language’s scope encompasses a wide range of use cases:
+
+-   Command line application
+-   Cloud-native development
+-   Creating utilities and stand-alone libraries
+-   Developing databases, such as CockroachDB
+-   Game development
+-   Development operations
+
+Go web frameworks were created to ease Go web development processes without worrying about setups and focusing more on the functionalities of a project.
+
+Using Go without a framework is possible, however, it is much more tedious and developers must constantly rewrite code. This is where the web frameworks come in.
+
+With frameworks, for instance, instead of writing a wrapper around a database connection in every new project, developers can just pick a favorite framework and focus more on the business logic.
+
+## Pros of using Go web frameworks
+
+Before we look into five top Go web frameworks, let’s review a few reasons why Go is popular.
+
+### Static typing
+
+Static typing provides better performance at runtime because it’s mostly used to build high-performance applications that are highly optimized at compile times.
+
+Static typing also finds hidden problems like type errors. For example, if I need to create an integer variable, the compiler now notes it is an integer and only accepts an integer. This makes it easier to manage code for larger projects.
+
+### Available packages
+
+A lot of developers have created production-ready packages on top of Go standard packages. These packages often become the standard libraries for specific features. For example, Gorilla Mux was created for routing by the community because the initial Go router is quite limited.
+
+All Go-related packages are available on Github, such as MongoDB, Redis, and MySQL.
+
+### Fast development
+
+Development time for these frameworks is fast and simple. Packages are already available and can import easily, eliminating the need to write redundant code, which is a win for developers.
+
+### Built-in concurrency
+
+Go’s Goroutines, which provide simple concurrency, provide language-level support for concurrency, lightweight threads, strict rules for avoiding mutation to disallow race conditions, and overall simplicity.
+
+## Cons of using Go frameworks
+
+The only true con to be aware of when using Go frameworks is error handling. It is still difficult to handle errors in Go because it is cumbersome and noisy by returning errors with responses and its strict type makes it harder to write.
+
+#### Gin general features
+
+##### Error management
+
+Gin offers convenient error management. This means when encountering any errors during an HTTP request, Gin documents the errors as they occur:
+
+c.AbortWithStatusJSON(400, gin.H{  "error":  "Blah blahhh"  })  // continue c.JSON(200, gin.H{  "msg":  "ok"  })
+
+##### Creating middleware
+
+It’s also incredibly easy to create middleware, which can be plugged into the request pipeline by creating a router with  `r := gin.New()`  and adding a logger middleware with  `r.Use(gin.Logger())`.
+
+You can also use a recovery middleware with  `r.Use(gin.Recovery())`.
+
+##### Gin’s performance
+
+Gin’s performance is thanks to its route grouping and small memory. Gin’s grouping ability for routes lets routes in Gin nest infinitely without it affecting performance.
+
+Its fast performance is also thanks to its small memory, which Gin uses or references while running. The more memory usage the server consumes, the slower it gets. Since Gin has a low memory footprint, it provides faster performance.
+
+##### JSON validation
+
+Finally, Gin provides support for JSON validation. Requesting with a JSON can validate required values, like input data from the client. These values must be validated before saving in memory, so by validating them, developers can avoid saving inaccurate values.
+
+Gin is a simple, easy-to-use framework that, if you are just starting to use Golang, Gin has been voted the most ideal framework because it is minimal and straightforward to use.
+
